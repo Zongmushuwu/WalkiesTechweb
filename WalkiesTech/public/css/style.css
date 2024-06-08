@@ -789,10 +789,7 @@ label {
 #tracking img {
   width: 400px;
   margin-top: 30px;
-  background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-  border-radius: 5%;
 }
 #tracking p {
   line-height: 24px;
@@ -839,10 +836,8 @@ label {
 #sound img {
   width: 400px;
   margin-top: 30px;
-  background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-  border-radius: 5%;
+  margin-left: 100px;
 }
 #sound p {
   line-height: 24px;
@@ -872,10 +867,7 @@ label {
 #health img {
   width: 400px;
   margin-top: 30px;
-  background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-  border-radius: 5%;
 }
 #health p {
   line-height: 24px;

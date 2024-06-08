@@ -7,7 +7,7 @@ export const Sound = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
                 {" "}
-                <img src="img/app.png" className="img-responsive" alt="" />{" "}
+                <img src="img/recall.png" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="painPoint-text">

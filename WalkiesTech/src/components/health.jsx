@@ -14,7 +14,7 @@ export const Health = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
                 {" "}
-                <img src="img/app.png" className="img-responsive" alt="" />{" "}
+                <img src="img/health.jpg" className="img-responsive" alt="" />{" "}
               </div>
         </div>
       </div>
