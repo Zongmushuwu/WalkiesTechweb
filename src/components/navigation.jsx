@@ -37,8 +37,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button> */}
+          <img src="img/logo.png" className="img-responsive logo" alt="" />
           <a className="navbar-brand page-scroll" href="#page-top">
-            Walkies Tech
+            WalkiesTech
           </a>{" "}
         </div>
 

@@ -14,7 +14,7 @@ export const Tracking = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
                 {" "}
-                <img src="img/app.png" className="img-responsive" alt="" />{" "}
+                <img src="img/newApp.png" className="img-responsive" alt="" />{" "}
               </div>
         </div>
       </div>

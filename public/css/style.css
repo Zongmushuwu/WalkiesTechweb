@@ -75,6 +75,12 @@ hr {
   padding: 15px;
   transition: all 0.8s;
 }
+#menu .logo{
+  width: 52px;
+  height: 52px;
+  /* margin-right: 10px; */
+  position: left;
+}
 #menu.navbar-default {
   background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
@@ -94,6 +100,7 @@ hr {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  margin-top: 17px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -119,6 +126,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -259,6 +267,60 @@ header .first{
   padding-top: 180px;
 }
 
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 32px;
+  }
+  header .intro-text{
+    padding-right: 15px;
+    padding-bottom: 0px;
+  }
+  .intro p{
+    margin-right: 0px;
+  }
+
+  body{
+    max-width:100%;
+  }
+  .navbar-default{
+    max-width:100%;
+  }
+  #painPoint i {
+    font-size: 20px !important;
+  }
+  #painPoint {
+    padding: 50px 0 !important;
+  }
+
+  #painPoint h2 {
+    margin-left: 60px !important;
+  }
+
+  #painPoint .painPoint-text {
+    margin-left: 0px !important;
+  }
+
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  #features .title {
+    padding-left: 30px !important; 
+}
+
+#features i.fa {
+  width: 80px!important;
+  height: 80px!important;
+  margin-bottom: 5px!important;
+}
+#features h3 {
+  font-size: 18px;
+}
+#sound img {
+  margin-left: 0px !important;
+}
+}
 
 /* PainPoint Section */
 #painPoint {
@@ -289,15 +351,17 @@ header .first{
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  margin-left: 250px;
+  font-size: 20px;
 }
 #painPoint h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #fbcbcb 0%, #775c5c 100%);
   height: 4px;
-  width: 60px;
+  width: 300px;
   bottom: 0;
-  left: 0;
+  left: 0px;
 }
 #painPoint .painPoint-text {
   margin-bottom: 6px;
@@ -319,12 +383,16 @@ header .first{
   margin-top: 30px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-  border-radius: 5%;
+  /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.06); */
+  /* border-radius: 5%; */
 }
 #painPoint .quote{
   width: 60px;
   margin-top: 0px;
+}
+#painPoint .testimonial{
+  margin:auto;
+  margin-bottom: 20px;
 }
 #painPoint p {
   line-height: 24px;
@@ -438,6 +506,9 @@ header .first{
   line-height: 24px;
   margin: 30px 0;
 }
+
+
+
 /* Services Section */
 #services {
   padding: 100px 0;

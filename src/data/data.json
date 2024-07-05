@@ -20,7 +20,7 @@
     ]
   },
   "PainPoint": {
-    "interview":"Now I can easily call my dog back without the need to shout.\"",
+    "interview":"The combination of GPS and distance training capabilities in the Smart Dog Collar could make off-leash walks much safer and stress-free. Excited to see it come to market! \"",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Why": [
       "Lorem ipsum dolor",
@@ -221,8 +221,8 @@
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-paw",
-      "title": "Comfortable Coller Design",
+      "icon": "fa fa-heartbeat",
+      "title": "Health Function",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ],
@@ -232,7 +232,7 @@
   },
   "Sound": {
     "title":"Recall System",
-    "description": "With a simple tape, the collar plays unique sound to call your dog back. Our system support unlimited customizable sound record. *Pre-train required"
+    "description": "With a simple tap, the collar plays a unique sound to call your dog back. Our system supports unlimited customizable sound record."
   },
   "Health": {
     "title":"Health Data",

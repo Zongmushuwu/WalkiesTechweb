@@ -9,8 +9,9 @@ export const PainPoint = (props) => {
             {" "}
             <img src="img/icons8-quote-100.png" className="img-responsive quote" alt="" />
             <i>{props.data ? props.data.interview : "loading..."}</i>
-            <img src="img/interview placeholder.jpg" className="img-responsive" alt="" />{" "}
-            <div className="text-on-video">Watch what Maria say ...</div>
+            <img src="img/testimonial.png" className="img-responsive testimonial" alt="" />{" "}
+            <h2>-- Charlie from Acres4Dogs</h2>
+            {/* <div className="text-on-video">Charlie from Acres4Dogs</div> */}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="painPoint-text">
